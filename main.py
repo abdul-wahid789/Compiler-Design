@@ -608,7 +608,7 @@ def lr_0():
                     break
                 for k in terms:
                     stateTable[omegaList.index(i)][k] = "r"+str(I0.index(j[1].replace(".","")))
-    print("\nCononical table")
+    print("\nCanonical table")
 
     print(f'{" ": <9}',end="")
     for i in new_row:
